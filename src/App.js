@@ -3,17 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="wrapper">
-      <header className="header">
-        <p>Czee</p>
-      </header>
-      <main className="main">
-      
-      </main> 
-      <footer className="footer">
-        <p>@yougonnagetyours 2021</p>
-      </footer>
-    </div>
+    <body className="wrapper">
+      <header>Header</header>
+      <div className="main">
+        <article>Article</article>
+        <nav>Nav</nav>
+        <aside>Aside</aside>
+      </div>
+      <footer>Footer</footer>
+    </body>
   );
 }
 
